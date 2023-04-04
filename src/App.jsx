@@ -1,11 +1,16 @@
-import { useGlobalContext } from "./context";
+import Navbar from "./Navbar";
+import Hero from './Hero'
+import Sidebar from "./Sidebar";
+import Submenu from "./Submenu";
 
 const App = () => {
-  const { isSidebarOpen } = useGlobalContext();
-  console.log(isSidebarOpen);
+
   return (
     <main>
-      <h1>strap starter</h1>
+      <Navbar/>
+      <Hero/>
+      <Sidebar/>
+      <Submenu/>
     </main>
   );
 };
