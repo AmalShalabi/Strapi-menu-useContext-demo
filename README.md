@@ -2,14 +2,14 @@
 
 ## Introduction
 
-This is a simple React app built with Vite and designed to practice using the useContext hook. The app is inspired by John Smilga's React projects and utilizes a Strapi backend to provide menu items for a restaurant website.
+This is a simple React app built with Vite and designed to practice using the useContext hook. The app is inspired by John Smilga's React projects and utilizes a Strapi backend to provide menu items .
 
 ## Installation
 
 To run this app on your local machine, follow these steps:
 
-1. Clone this repository to your local machine
-2. Navigate to the project directory in your terminal
+1. Clone this repository to your local machine `https://github.com/AmalShalabi/Strapi-menu-useContext-demo.git`
+2. Navigate to the project directory in your terminal `cd Strapi-menu-useContext-demo`
 3. Run `npm install` to install the necessary dependencies
 4. Run `npm run dev` to start the development server
 5. Open your browser and navigate to `http://localhost:3000` to view the app
