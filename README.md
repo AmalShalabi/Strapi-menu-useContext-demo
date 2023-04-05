@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a simple React app built with Vite and designed to practice using the useContext hook. The app is inspired by John Smilga's React projects and utilizes a Strapi backend to provide menu items .
+This is a simple React app built with Vite and designed to practice using the useContext hook. The app is inspired by John Smilga's React projects and utilizes a data (json file, inspired by strapi menu) .
 
 ## Installation
 
