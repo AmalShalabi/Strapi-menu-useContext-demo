@@ -422,8 +422,10 @@ NavLInks
   .nav-links {
     display: flex;
     justify-content: center;
+    align-self: stretch;
   }
   .nav-center {
+    align-self: stretch;
     display: grid;
     grid-template-columns: auto 1fr;
   }
@@ -463,21 +465,23 @@ Submenu
     visibility: inherit;
     opacity: 0;
     transition: transform 0.3s ease-in-out, opacity 0.2s ease-in-out;
+    z-index: -1;
   }
   .show-submenu {
     visibility: visible;
     opacity: 1;
     transform: rotateX(0) translateX(-50%);
+    z-index: 10;
   }
-  .submenu h5{
+  .submenu h5 {
     margin-bottom: 1rem;
     color: var(--primary-500);
   }
-  .submenu-links{
+  .submenu-links {
     display: grid;
     row-gap: 0.5rem;
   }
-  .submenu-links a{
+  .submenu-links a {
     display: block;
     color: var(--grey-900);
     text-transform: capitalize;
@@ -485,7 +489,7 @@ Submenu
     align-items: center;
     gap: 1rem;
   }
-  .submenu-links svg{
+  .submenu-links svg {
     color: var(--grey-500);
   }
 }
