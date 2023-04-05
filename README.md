@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a simple React app built with Vite and designed to practice using the useContext hook. The app is inspired by John Smilga's React projects and utilizes a data (json file, inspired by strapi menu) .
+This is a simple React app built with Vite with Responsive design to practice using the useContext hook. The app is inspired by John Smilga's React projects and utilizes a data (json file, inspired by strapi menu) .
 
 ## Installation
 
@@ -14,7 +14,6 @@ To run this app on your local machine, follow these steps:
 4. Run `npm run dev` to start the development server
 5. Open your browser and navigate to `http://localhost:3000` to view the app
 
-Note: To access the menu items, you will need to have a Strapi backend running on your local machine. You can follow the instructions in the [Strapi documentation](https://strapi.io/documentation/developer-docs/latest/getting-started/quick-start.html) to set up a local Strapi instance.
 
 ## Usage
 
